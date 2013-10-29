@@ -1,4 +1,4 @@
-Dir[File.dirname(__FILE__) + '/pages/*.rb'].each {|file| require file }
+Dir[File.dirname(__FILE__) + '/pages/**/*.rb'].each {|file| require file }
 
 module Wikipedia
   def self.go_to_home_page driver
